@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #454545;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin:auto;
+}
+header .menu ul{
+    display: flex;
+    align-content: center;
+}
+header .menu ul li a{
+    color: rgb(218, 218, 218);
+    font-size: 0.8rem;
+    padding: 5px 5px;
+    margin-left: 15px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+header .menu ul li a:hover{
+    color: rgb(253, 253, 253);
+    font-weight: 500;
+}
+header .menu-side ul{
+    display: flex;
+    align-content: center;
+}
+header .menu-side ul li .icons{
+    color: rgb(218, 218, 218);
+    font-size: 1rem;
+    padding: 5px 5px;
+    margin-left: 15px;
+    position: relative;
+    cursor: pointer;
+    font-weight: 400;
+    top: 4px;
+    transition: 0.5s;
+}
+header .menu-side ul li .icons:hover{
+    color: rgb(253, 253, 253);
+    font-weight: 700;
+}
+header .logo img{
+    width: 20px;
+    cursor: pointer;
+}
+
+/* first */
+.first{
+    min-height: 87vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('/Apple/IMG/hero_iphone14pro__e5xbgo5ffhg2_large.jpg');
+    margin-top: 33px;
+    background-position: center;
+    background-size: cover;
+    line-height: 3rem;
+}
+.first h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 35px;
+    font-weight: 600;
+}
+.first h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 550;
+    text-align: center;
+}
+.first ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.first ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.first ul li a:hover{
+    text-decoration: underline;
+}
+
+/* second */
+.second{
+    min-height: 87vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('/Apple/IMG/hero_iphone14__fjmsqstr1ceq_large.jpg');
+    margin-top: 33px;
+    background-position: center;
+    background-size: cover;
+    line-height: 3rem;
+}
+.second h1{
+    color: rgb(20,20,20);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 35px;
+    font-weight: 600;
+}
+.second h3{
+    font-size: 1.5rem;
+    color: rgb(20,20,20);
+    font-weight: 550;
+    text-align: center;
+}
+.second ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.second ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.second ul li a:hover{
+    text-decoration: underline;
+}
+
+/* third */
+.third{
+    min-height: 87vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('/Apple/IMG/bhm_hero__cbs0egyn86oi_large.jpg');
+    margin-top: 33px;
+    background-position: center;
+    background-size: cover;
+    line-height: 3rem;
+}
+.third h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.third h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    width: 30%;
+    margin: auto;
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+}
+.third ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.third ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.third ul li a:hover{
+    text-decoration: underline;
+}
+
+.fourth-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* fourth1 */
+.fourth-container .fourth1{
+    width: 49%;
+    background-color: #454545;
+    background-image: url('/Apple/IMG/promo_apple_watch_series_8__ch7rexplmihe_large.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+    margin: 5px;
+    transition: 0.5s;
+}
+.fourth-container .fourth1:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.fourth-container .fourth1 h1 img{
+    width: 20px;
+    position: relative;
+    bottom: 2px;
+}
+.fourth-container .fourth1 h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fourth-container .fourth1 h5{
+    color: #a31418;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.fourth-container .fourth1 h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.fourth-container .fourth1 ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.fourth-container .fourth1 ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.fourth-container .fourth1 ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fourth2 */
+.fourth-container .fourth2{
+    width: 49%;
+    background-color: #454545;
+    background-image: url('/Apple/IMG/promo_ipad__fioegapg12qi_large.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+    margin: 5px;
+    transition: 0.5s;
+}
+.fourth-container .fourth2:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.fourth-container .fourth2 h1{
+    color: rgb(20,20,20);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fourth-container .fourth2 h3{
+    font-size: 1.5rem;
+    color: rgb(20,20,20);
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.fourth-container .fourth2 ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.fourth-container .fourth2 ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.fourth-container .fourth2 ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fourth3 */
+.fourth-container .fourth3{
+    width: 49%;
+    background-color: #454545;
+    background-image: url('/Apple/IMG/promo_mbp__ek7p477bkp6q_large.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+    margin: 5px;
+    transition: 0.5s;
+}
+.fourth-container .fourth3:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.fourth-container .fourth3 h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fourth-container .fourth3 h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.fourth-container .fourth3 ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.fourth-container .fourth3 ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.fourth-container .fourth3 ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fourth4 */
+.fourth-container .fourth4{
+    width: 49%;
+    background-color: #454545;
+    background-image: url('/Apple/IMG/promo_homepod__f7jnolq94m2y_large.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+    margin: 5px;
+    transition: 0.5s;
+}
+.fourth-container .fourth4:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.fourth-container .fourth4 h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fourth-container .fourth4 h3{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.fourth-container .fourth4 ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.fourth-container .fourth4 ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.fourth-container .fourth4 ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fourth5 */
+.fourth-container .fourth5{
+    width: 49%;
+    background-color: #454545;
+    background-image: url('/Apple/IMG/promo_mac_does_that__ckozfqcs65w2_large.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+    margin: 5px;
+    transition: 0.5s;
+}
+.fourth-container .fourth5:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.fourth-container .fourth5 img{
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.fourth-container .fourth5 h3{
+    font-size: 1.5rem;
+    color: rgb(20,20,20);
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.fourth-container .fourth5 ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.fourth-container .fourth5 ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.fourth-container .fourth5 ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fourth6 */
+.fourth-container .fourth6{
+    width: 49%;
+    background-color: #454545;
+    background-image: url('/Apple/IMG/Apple\ Card.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 36rem;
+    margin: 5px;
+    transition: 0.5s;
+}
+.fourth-container .fourth6:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.fourth-container .fourth6 img{
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.fourth-container .fourth6 h3{
+    font-size: 1.5rem;
+    color: rgb(20,20,20);
+    font-weight: 550;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.fourth-container .fourth6 ul{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.fourth-container .fourth6 ul li a{
+    color: rgb(0, 99, 219);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 5px 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.fourth-container .fourth6 ul li a:hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+footer p{
+    font-size: 0.8rem;
+    color: rgb(69, 69, 69);
+    margin: 7px 0px;
+}
+footer hr{
+    border: none;
+    height: 1px;
+    background-color: #454545;
+}
+.footer-menu{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu h5{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 0.8rem;
+    transition: 0.5s;
+}
+.footer-menu ul li a:hover{
+    text-decoration: underline;
+}
+.footer-menu .menu1-1{
+    margin-bottom: 15px;
+}
+footer .end{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .end .menu-last ul{
+    display: flex;
+    align-items: center;
+}
+footer .end .menu-last ul li a{
+    color: #454545;
+    margin-left: 15px;
+    font-size: 0.6rem;
+    transition: 0.5s;
+}
+footer .end .menu-last ul li a:hover{
+    color: rgb(20,20,20);
+    font-weight: 500;
+}
